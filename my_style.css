@@ -8,4 +8,6 @@ h2{
 p{
   color: blue;
   text-emphasis-style: double-circle;
+  font-family: monospace;
+  font-size: 25;
 }
