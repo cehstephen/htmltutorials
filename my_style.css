@@ -1,0 +1,11 @@
+h2{
+  color: white;
+  text-align: center;
+  background-color: blue;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+p{
+  color: blue;
+  text-emphasis-style: double-circle;
+}
