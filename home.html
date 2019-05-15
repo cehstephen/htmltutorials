@@ -2,9 +2,18 @@
 <html>
     <head>
         <title>This Is an HTML5 Page </title>
+        <script>
+              function greet_users(){
+                return "You are welcome to HTML5 tutorial with Git Version conttrol.";
+              }
+        </script>
     </head>
     <body>
         <h2>You are welcome to HTML5 Class</h2>
         <p>This is a simple paragraph. </p>
+        <p id="greeting"></p>
+        <script>
+              document.getElementById("greeting").innerHTML=greet_users();
+        </script>
     </body>
 </html>
